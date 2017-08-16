@@ -10,6 +10,7 @@ export class DataBindingComponent implements OnInit {
   url: string = 'http://loiane.com';
   cursoAngular : boolean = true;
   urlImagem = 'http://lorempixel.com/400/200/nature/';
+  
   constructor() { }
 
   getValor() {
